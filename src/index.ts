@@ -1,3 +1,3 @@
 import { data } from './forms';
 
-console.log(data.age);
+console.log(data.name);
