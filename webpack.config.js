@@ -1,4 +1,5 @@
 const path = require('path');
+const htmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -12,7 +13,12 @@ module.exports = {
         include: [path.resolve(__dirname, 'src')],
       },
       {
-        test: /\.css$/i,
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: ['babel-loader'],
+      },
+      {
+        test: /\.scss$/i,
         use: [
           // Creates `style` nodes from JS strings
           'style-loader',
@@ -31,4 +37,5 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'public'),
   },
+  plugins: [new htmlWebPackPlugin({ template: './src/template.html' })],
 };
