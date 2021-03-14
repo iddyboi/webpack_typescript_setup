@@ -11,12 +11,11 @@ const Main: React.FunctionComponent<MainProps> = ({ info }) => {
       <div className='main-content'>
         <h1 className='main-content__header'>My Journey so Far</h1>
         <h3 className='main-content__sub'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolorem
-          illum molestias, amet quod repellendus quidem quae earum optio fuga
-          hic odio voluptate eos iure porro. Voluptas neque quam accusamus eum
-          exercitationem sapiente ullam rerum deleniti delectus modi iure vero
-          sit, similique ut facilis quasi? Ullam illo reprehenderit vitae
-          voluptas.
+          I have been a front end developer in the uk for 4 years and running, i
+          have been building ecommerce websites for some of leading companies
+          such as Calvin clien, Tommy Hilfiger, Purina, Nestle and Lego. The
+          tools I use everyday for my development are React, Typescript,
+          Webpack, Docker and Scss
         </h3>
         <p className='main-content__lead'>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur
