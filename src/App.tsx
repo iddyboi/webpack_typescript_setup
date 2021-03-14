@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Main from './components/Main/Main';
-import { name } from './forms';
 import './main.scss';
 
 export default function App() {
